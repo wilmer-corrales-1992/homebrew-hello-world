@@ -11,7 +11,7 @@ class HelloWorld < Formula
     # depends_on "cmake" => :build
   
     def install
-      bin.install 'hello_world'
+      bin.install 'hello_world.rb'
     end
   
     # test do
